@@ -1,72 +1,84 @@
-# 📦 Streamlit App: YouTube Podcast Summarizer
+# 📦 Streamlit App: YouTube Podcast Summarizer  
 
-UI developed using Streamlit, leveraging the YouTube Transcript API and Google's Gemini API, to create a YouTube Podcast Summarizer.
+This is a **Streamlit-powered** version of my original **YouTube Podcast Summarizer** script. I created a **simple user interface (UI)** to make it accessible for **non-coders** while maintaining its functionality. The app is **deployed for free** on the **Streamlit Community Cloud**.  
 
-## Demo App
+---
 
-Try out the app here!:
+## 🚀 Demo App  
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtube-podcast-summarizer.streamlit.app/)
+Ever listened to a podcast, got inspired by the insights shared, but then realized you can't remember anything afterward? I’ve found myself constantly **replaying parts of an episode** to take notes.  
 
-## About This Application
+That’s why I built this app! It helps you **recall key points** from any YouTube podcast **without replaying the entire episode**.  
 
-This Streamlit application allows users to quickly summarize YouTube podcast transcripts. It fetches transcripts using the YouTube Transcript API and generates concise summaries using Google's Gemini API. The application is designed to be user-friendly and provides a clean interface for easy access to podcast summaries.
+Give it a try here:  
 
-**Key Features:**
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtube-podcast-summarizer.streamlit.app/)  
 
-* **Easy YouTube URL Input:** Simply paste a YouTube video URL to get started.
-* **Gemini-Powered Summarization:** Leverages the power of Google's Gemini API for accurate and concise summaries.
-* **Transcript Retrieval:** Automatically fetches video transcripts using the YouTube Transcript API.
-* **Clear and Organized Output:** Presents summaries in a structured, scrollable format.
-* **Settings Sidebar:** Allows users to configure their Gemini API key securely.
+---
 
-## Getting Started
+## 🎯 About This Application  
 
-**Prerequisites:**
+This **Streamlit web app** allows users to **summarize YouTube podcasts** effortlessly. It fetches transcripts using the **YouTube Transcript API** and generates concise summaries with **Google's Gemini API**.  
 
-* Python 3.6+
-* A Google Gemini API key (obtainable from [Google AI Studio](https://ai.google.dev/))
+### **Key Features**  
+✅ **Easy YouTube URL Input** – Just paste a **YouTube video link** to get started.  
+✅ **AI-Powered Summarization** – Uses **Google Gemini** for accurate and structured summaries.  
+✅ **Automated Transcript Retrieval** – Fetches transcripts directly from YouTube.  
+✅ **Organized Summary Output** – Displays summaries in a **clean, scrollable format**.  
+✅ **Settings Sidebar** – Securely enter your **Gemini API key** within the app.  
 
-**Installation:**
+---
 
-1.  Clone the repository:
+## 🛠️ Getting Started  
 
-    ```bash
-    git clone https://github.com/Kheng2023/streamlit-youtube-podcast-summariser.git
-    cd streamlit-youtube-podcast-summariser
-    ```
+### **Prerequisites**  
 
-2.  Install the required dependencies:
+🔹 Python **3.6+**  
+🔹 A **Google Gemini API key** (Get yours [here](https://ai.google.dev/))  
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+### **Installation**  
 
-3.  Run the Streamlit application:
+1️⃣ **Clone the repository**  
 
-    ```bash
-    streamlit run streamlit_app.py
-    ```
+```bash
+git clone https://github.com/Kheng2023/streamlit-youtube-podcast-summariser.git
+cd streamlit-youtube-podcast-summariser
+```
 
-4.  Enter your Gemini API key in the settings sidebar.
+2️⃣ **Install dependencies**  
 
-## Further Reading
+```bash
+pip install -r requirements.txt
+```
 
-**Resources:**
+3️⃣ **Run the Streamlit app**  
 
-* **Streamlit Documentation:** [https://docs.streamlit.io/](https://docs.streamlit.io/)
-    * Learn more about building web apps with Streamlit.
-* **YouTube Transcript API:** [https://github.com/jdepoix/youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api)
-    * Explore the documentation for retrieving YouTube transcripts.
-* **Google Gemini API:** [https://ai.google.dev/gemini-api/docs/](https://ai.google.dev/gemini-api/docs/)
-    * Learn how to use Google's Gemini API.
-* **Example youtube video to test the summarizer:**
-    * add a youtube video link here.
+```bash
+streamlit run streamlit_app.py
+```
 
-## Contributing
+4️⃣ **Enter your Gemini API key** in the **settings sidebar** when prompted.  
 
-Contributions are welcome! Please feel free to submit pull requests or open issues to suggest improvements or report bugs.
+---
 
-## License
+## 📚 Further Reading  
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+📌 **[Streamlit Documentation](https://docs.streamlit.io/)** – Learn more about building web apps.  
+📌 **[YouTube Transcript API](https://github.com/jdepoix/youtube-transcript-api)** – Fetching YouTube transcripts.  
+📌 **[Google Gemini API Docs](https://ai.google.dev/gemini-api/docs/)** – Learn how Gemini AI works.  
+📌 **Example YouTube video to test:** _Coming_Soon_  
+
+---
+
+## 🤝 Contributing  
+
+Contributions are welcome! 🚀  
+Feel free to **submit pull requests** or **open issues** to suggest improvements or report bugs.  
+
+---
+
+## ⚖️ License  
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
+
+---
