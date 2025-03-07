@@ -32,8 +32,8 @@ This Streamlit application allows users to quickly summarize YouTube podcast tra
 1.  Clone the repository:
 
     ```bash
-    git clone [your-repository-url]
-    cd [your-repository-directory]
+    git clone https://github.com/Kheng2023/streamlit-youtube-podcast-summariser.git
+    cd streamlit-youtube-podcast-summariser
     ```
 
 2.  Install the required dependencies:
@@ -45,7 +45,7 @@ This Streamlit application allows users to quickly summarize YouTube podcast tra
 3.  Run the Streamlit application:
 
     ```bash
-    streamlit run app.py
+    streamlit run streamlit_app.py
     ```
 
 4.  Enter your Gemini API key in the settings sidebar.
