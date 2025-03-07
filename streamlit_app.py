@@ -36,7 +36,6 @@ genai_config = types.GenerateContentConfig(
     temperature=0.7,
     top_p=0.9,
 )
-client = genai.Client(api_key=api_key)
 
 # Input: YouTube Video Link
 youtube_link = st.text_input("🔗 Enter a YouTube URL", placeholder="https://www.youtube.com/watch?v=12345abcde")
@@ -53,6 +52,7 @@ def fetch_transcript(video_id):
 # Function to Generate Summary
 def summarize_podcast(transcript):
     try:
+        client = genai.Client(api_key=api_key)
         response = client.models.generate_content(
             model="gemini-2.0-flash",
             config=genai_config,
