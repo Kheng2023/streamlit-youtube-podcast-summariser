@@ -37,7 +37,7 @@ This **Streamlit web app** allows users to **summarize YouTube podcasts** effort
 
 ### **Prerequisites**  
 
-🔹 **Python 3.6+** installed on your system  
+🔹 **Python 3.10+** installed on your system  
 🔹 **Google Gemini API key** (Get yours **[here](https://ai.google.dev/)**)  
 
 ### **Installation**  
@@ -55,21 +55,15 @@ cd streamlit-youtube-podcast-summariser
 pip install -r requirements.txt
 ```
 
-3️⃣ **Set your Gemini API Key**  
-
-Before running the app, **export your Gemini API key** (replace `your_api_key` with your actual key):  
-
-```bash
-export GEMINI_API_KEY="your_api_key"
-```
-
-4️⃣ **Run the Streamlit app**  
+3️⃣ **Run the Streamlit app**  
 
 ```bash
 streamlit run streamlit_app.py
 ```
 
-5️⃣ **Enter your Gemini API key** in the **settings sidebar** when prompted.  
+4️⃣ **Enter your Gemini API key** in the **settings sidebar**.  
+
+5️⃣ **Paste the YouTube link**, and voilà! 🎉 Your podcast summary is ready!  
 
 ---
 
