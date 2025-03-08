@@ -76,11 +76,16 @@ streamlit run streamlit_app.py
 ## ❗ Troubleshooting  
 
 🔹 **Issue:** The app sometimes fails to fetch a transcript.  
-**Possible Reasons:**  
+
+**Possible Reasons (Based on Online Discussions):**  
 - The **YouTube video does not have subtitles** available.  
 - Some **auto-generated captions** may not be accessible via the API.  
-- The **provided YouTube link is incorrect** (make sure it’s the full URL, not a shortened "share" link).
-- 
+- The **provided YouTube link is incorrect** (ensure it’s the **full video URL**, not a shortened "share" link).  
+
+However, **based on my own experience**, I believe the **most likely cause** is:  
+- The **API occasionally fails to retrieve transcripts due to temporary access issues**.  
+- **Solution:** If it doesn’t work, **wait a while and try again**—it might resolve itself. *(Possibly due to request overload?)*
+
 ---
 
 ## 📚 Further Reading  
