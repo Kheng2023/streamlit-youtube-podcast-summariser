@@ -8,6 +8,8 @@ This is a **Streamlit-powered** version of my original **YouTube Podcast Summari
 
 🎥 **Watch the app in action!** → [YouTube Demo](https://youtu.be/FR1GI0wqvqY)  
 
+![streamlit-youtube-podcast-summarizer.gif](streamlit-youtube-podcast-summarizer.gif)
+
 Ever listened to a podcast, got inspired by the insights shared, but then realized you can't remember anything afterward? I’ve found myself **replaying parts of an episode** just to take notes.  
 
 That’s why I built this app! It helps you **recall key points** from any YouTube podcast **without replaying the entire episode**.  
