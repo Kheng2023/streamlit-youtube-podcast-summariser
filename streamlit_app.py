@@ -19,15 +19,15 @@ with st.sidebar:
 
 # System Instruction for AI Summarization
 system_instruction = """You are given a YouTube podcast transcript. Your task is to summarize the podcast in markdown format:
-**Topic 1: Topic name**\
-    1. Key Point 1\
-    2. Key Point 2\
-\
-**Topic 2: Topic name**\
-    1. Key Point 1\
-    2. Key Point 2\
-    3. Key Point 3\
-\
+**Topic 1: Topic name**
+1. Key Point 1
+2. Key Point 2
+
+**Topic 2: Topic name**
+1. Key Point 1
+2. Key Point 2
+3. Key Point 3
+
 Keep the summary concise and structured.
 If summarization isn't possible, state so explicitly."""
 
