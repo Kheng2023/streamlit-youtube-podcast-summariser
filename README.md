@@ -1,16 +1,31 @@
+Your README is well-structured and clear! Here are **a few minor improvements** to make it even more polished:  
+
+### **Suggested Enhancements:**  
+1. **Clarify the YouTube Demo Link** – Instead of just "YouTube Demonstration of the App," you can say:  
+   ➝ *"Watch a step-by-step demo of the app in action on YouTube!"*  
+2. **Bold & Consistent Formatting** – Add emphasis to certain phrases for better readability.  
+3. **Streamline API Key Instructions** – Specify that users **must obtain & set** the API key before running the app.  
+4. **Add Troubleshooting Tips** – If transcript fetching sometimes fails, mentioning possible reasons (e.g., auto-generated captions not available) might be useful.  
+
+---
+
+### **Updated README with Improvements:**  
+
 # 📦 Streamlit App: YouTube Podcast Summarizer  
 
-This is a **Streamlit-powered** version of my original **YouTube Podcast Summarizer** script. I created a **simple user interface (UI)** to make it accessible for **non-coders** while maintaining its functionality. The app is **deployed for free** on the **Streamlit Community Cloud**.  
+This is a **Streamlit-powered** version of my original **YouTube Podcast Summarizer** script. I created a **simple user interface (UI)** to make it accessible for **non-coders**, while maintaining its powerful functionality. The app is **deployed for free** on the **Streamlit Community Cloud**.  
 
 ---
 
 ## 🚀 Demo App  
 
-Ever listened to a podcast, got inspired by the insights shared, but then realized you can't remember anything afterward? I’ve found myself constantly **replaying parts of an episode** to take notes.  
+🎥 **Watch the app in action!** → [YouTube Demo](https://youtu.be/FR1GI0wqvqY)  
+
+Ever listened to a podcast, got inspired by the insights shared, but then realized you can't remember anything afterward? I’ve found myself **replaying parts of an episode** just to take notes.  
 
 That’s why I built this app! It helps you **recall key points** from any YouTube podcast **without replaying the entire episode**.  
 
-Give it a try here:  
+Try the app here:  
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtube-podcast-summarizer.streamlit.app/)  
 
@@ -18,7 +33,7 @@ Give it a try here:
 
 ## 🎯 About This Application  
 
-This **Streamlit web app** allows users to **summarize YouTube podcasts** effortlessly. It fetches transcripts using the **YouTube Transcript API** and generates concise summaries with **Google's Gemini API**.  
+This **Streamlit web app** allows users to **summarize YouTube podcasts** effortlessly. It fetches transcripts using the **YouTube Transcript API** and generates concise summaries using **Google's Gemini API**.  
 
 ### **Key Features**  
 ✅ **Easy YouTube URL Input** – Just paste a **YouTube video link** to get started.  
@@ -33,8 +48,8 @@ This **Streamlit web app** allows users to **summarize YouTube podcasts** effort
 
 ### **Prerequisites**  
 
-🔹 Python **3.6+**  
-🔹 A **Google Gemini API key** (Get yours [here](https://ai.google.dev/))  
+🔹 **Python 3.6+** installed on your system  
+🔹 **Google Gemini API key** (Get yours **[here](https://ai.google.dev/)**)  
 
 ### **Installation**  
 
@@ -51,14 +66,32 @@ cd streamlit-youtube-podcast-summariser
 pip install -r requirements.txt
 ```
 
-3️⃣ **Run the Streamlit app**  
+3️⃣ **Set your Gemini API Key**  
+
+Before running the app, **export your Gemini API key** (replace `your_api_key` with your actual key):  
+
+```bash
+export GEMINI_API_KEY="your_api_key"
+```
+
+4️⃣ **Run the Streamlit app**  
 
 ```bash
 streamlit run streamlit_app.py
 ```
 
-4️⃣ **Enter your Gemini API key** in the **settings sidebar** when prompted.  
+5️⃣ **Enter your Gemini API key** in the **settings sidebar** when prompted.  
 
+---
+
+## ❗ Troubleshooting  
+
+🔹 **Issue:** The app sometimes fails to fetch a transcript.  
+**Possible Reasons:**  
+- The **YouTube video does not have subtitles** available.  
+- Some **auto-generated captions** may not be accessible via the API.  
+- The **provided YouTube link is incorrect** (make sure it’s the full URL, not a shortened "share" link).
+- 
 ---
 
 ## 📚 Further Reading  
@@ -66,14 +99,13 @@ streamlit run streamlit_app.py
 📌 **[Streamlit Documentation](https://docs.streamlit.io/)** – Learn more about building web apps.  
 📌 **[YouTube Transcript API](https://github.com/jdepoix/youtube-transcript-api)** – Fetching YouTube transcripts.  
 📌 **[Google Gemini API Docs](https://ai.google.dev/gemini-api/docs/)** – Learn how Gemini AI works.  
-📌 **Example YouTube video to test:** _Coming_Soon_  
 
 ---
 
 ## 🤝 Contributing  
 
-Contributions are welcome! 🚀  
-Feel free to **submit pull requests** or **open issues** to suggest improvements or report bugs.  
+💡 **Contributions are welcome!** 🚀  
+If you have suggestions, **submit a pull request** or **open an issue** to report bugs or improvements.  
 
 ---
 
