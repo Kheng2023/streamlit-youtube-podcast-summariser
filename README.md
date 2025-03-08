@@ -1,16 +1,3 @@
-Your README is well-structured and clear! Here are **a few minor improvements** to make it even more polished:  
-
-### **Suggested Enhancements:**  
-1. **Clarify the YouTube Demo Link** – Instead of just "YouTube Demonstration of the App," you can say:  
-   ➝ *"Watch a step-by-step demo of the app in action on YouTube!"*  
-2. **Bold & Consistent Formatting** – Add emphasis to certain phrases for better readability.  
-3. **Streamline API Key Instructions** – Specify that users **must obtain & set** the API key before running the app.  
-4. **Add Troubleshooting Tips** – If transcript fetching sometimes fails, mentioning possible reasons (e.g., auto-generated captions not available) might be useful.  
-
----
-
-### **Updated README with Improvements:**  
-
 # 📦 Streamlit App: YouTube Podcast Summarizer  
 
 This is a **Streamlit-powered** version of my original **YouTube Podcast Summarizer** script. I created a **simple user interface (UI)** to make it accessible for **non-coders**, while maintaining its powerful functionality. The app is **deployed for free** on the **Streamlit Community Cloud**.  
