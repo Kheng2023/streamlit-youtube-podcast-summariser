@@ -7,7 +7,17 @@ from youtube_transcript_api import YouTubeTranscriptApi
 st.set_page_config(page_title="YouTube Podcast Summarizer", page_icon="▶️", layout="wide")
 st.title("🎙️ YouTube Podcast Summarizer")
 st.write("Generate a structured summary of YouTube podcast episodes with AI.")
-
+st.markdown("""
+### 🔑 **Important Instructions**
+- **Enter your Gemini API key** in the sidebar.  
+  *(Mobile users: Tap the `>` button in the top-left to access the sidebar.)*
+  
+- **Improving Transcript Retrieval Success**:
+  1. Choose a **YouTube video with official subtitles**.
+  2. **Turn on Closed Captions (CC)** before copying the link.
+  3. Ensure the video URL contains `'watch'`.
+  4. Some videos **without official transcripts** may work over time.
+""")
 # Sidebar Settings
 with st.sidebar:
     st.title("⚙️ Settings")
